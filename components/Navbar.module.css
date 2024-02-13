@@ -1,0 +1,17 @@
+/* components/Navbar.module.css */
+.navbar {
+    background-color: #1f2937; /* bg-gray-800 */
+    padding: 1rem; /* p-4 */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: padding 0.3s ease, font-size 0.3s ease;
+    z-index: 50; /* Hoch genug, um über anderen Elementen zu sein */
+  }
+  
+  .navbarScrolled {
+    padding: 0.5rem; /* Kleinere Padding-Werte */
+    font-size: 0.875rem; /* Kleinere Schriftgröße */
+    padding-bottom: 0.5rem;
+  }
+  
